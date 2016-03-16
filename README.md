@@ -7,7 +7,7 @@ Test of arduino wifi shield esp8266.
 
 <img alt="Photo" src="http://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2015/01/esp8266_pinout_h-569x236.png?resize=569%2C236?raw=true">
 
-# AT Commands 
+# AT Commands
 
 <img alt="Photo" src="http://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2015/01/commands.png?raw=true">
 
@@ -15,12 +15,21 @@ Test of arduino wifi shield esp8266.
 - `AT+CWMODE=3` : Serveur et client TCP à la fois.
 - `AT+CWLAP` : Lister les réseaux wifi captés.
 - `AT+CWJAP="wifi_name","password"` : connexion à une wifi.
-- `AT+CIFSR` : Connaitre l'adresse IP de la carte. la première en tant que serveur, la deuxième en tant que client. 
+- `AT+CIFSR` : Connaitre l'adresse IP de la carte. la première en tant que serveur, la deuxième en tant que client.
 
-# Links 
+# Make' Article about ESP8266 and Setup :
 
-[TUTO avec et sans Arduino](http://randomnerdtutorials.com/getting-started-with-esp8266-wifi-transceiver-review/)
+[Article Tuto Complet de Make:](http://makezine.com/2015/04/01/installing-building-arduino-sketch-5-microcontroller/)
 
+Use HelloServer to control a simple LED with only Esp8266 module.
+Don't forget to set your SSID and password wifi.
+Go to Esp8266's Ip throught your browser, enter Pin Number and then the state of the Pin, it should be somthing like :
+
+```SH
+
+  http://192.168.43.223/gpio/1
+
+```
 
 
 # How to cabling and communicate with an Arduino
@@ -40,9 +49,9 @@ Test of arduino wifi shield esp8266.
 
 Regarder le tuto.
 
-# How to use the ESP alone
+# Utils : How to use the ESP alone
 
-[Tuto ESP8266 Remote Controlled Sockets](http://randomnerdtutorials.com/esp8266-remote-controlled-sockets/) 
+[Tuto ESP8266 Remote Controlled Sockets](http://randomnerdtutorials.com/esp8266-remote-controlled-sockets/)
 
 [Tuto ESP8266 how to install board arduino IDE](http://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/)
 
@@ -50,3 +59,4 @@ Regarder le tuto.
 
 [Compileur ESP pour OSX](http://www.esp8266.com/wiki/doku.php?id=setup-osx-compiler-esp8266)
 
+[TUTO NODE MCU](http://randomnerdtutorials.com/getting-started-with-esp8266-wifi-transceiver-review/)
